@@ -21,7 +21,6 @@ public class FossGame extends JFrame implements ActionListener{
 		this.setLayout(new GridLayout(2,2));
 		for(int i = 0; i < 4; i++){
 			qSets[i][0] = new JPanel();
-			//this.add(qSets[i][0]);
 			if(i != 3){
 				qSets[i][0].setLayout(new GridLayout(4,1));
 				for(int j = 1; j < 5; j++){
