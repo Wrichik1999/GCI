@@ -55,6 +55,7 @@ public class FossGame extends JFrame implements ActionListener{
 		this.setTitle("FOSS Quiz");
 		this.pack();
 		this.setVisible(true);
+		this.setResizable(false);
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 	}
 	public void makeqSet1(){
@@ -90,7 +91,7 @@ public class FossGame extends JFrame implements ActionListener{
 		ans[5].setBackground(Color.BLUE);
 		qSets[1][2].add(question[5],BorderLayout.NORTH);
 		qSets[1][2].add(ans[5],BorderLayout.CENTER);
-		question[6] = new JLabel("6. What is the AOSP(Adroid OS) kernel based on?");
+		question[6] = new JLabel("6. What is the AOSP(Android OS) kernel based on?");
 		ans[6] = new JComboBox(new String[]{"Linux", "Windows NT", "OS X", "Unix"});
 		ans[6].setBackground(Color.BLUE);
 		qSets[1][3].add(question[6],BorderLayout.NORTH);
