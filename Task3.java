@@ -2,11 +2,11 @@ import java.io.File;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-class Task2{
+class Task3{
     String allItems;
     double allItemsPrice;
     DecimalFormat twodp;
-    public Task2(){
+    public Task3(){
         allItems = "";
         allItemsPrice = 0;
         twodp = new DecimalFormat("#.00");
@@ -132,6 +132,6 @@ class Task2{
         System.exit(0);
     }
     public static void main(String[] args){
-        new Task2();
+        new Task3();
     }
 }
