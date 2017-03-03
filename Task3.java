@@ -134,4 +134,14 @@ class Task3{
     public static void main(String[] args){
         new Task3();
     }
+    public class Props{
+        public int getStock(String code){}
+        public void setStock(String code, int num){
+            Properties prop = new Properties();
+            try{
+                prop.load(new Scanner(new File("stocklist")));
+            catch(Exception e){}
+            prop.setProperty(code, Integer.toString(num));					
+			prop.
+        }
 }
